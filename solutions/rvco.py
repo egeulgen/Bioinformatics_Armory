@@ -31,3 +31,9 @@ if __name__ == "__main__":
     input_lines = sys.stdin.read().splitlines()
     dna_seqs = parse_fasta(input_lines).values()
 
+    count = 0
+    for seq in dna_seqs:
+        if seq == seq[::-1].translate(str.maketrans("ACGT", "TGCA")):
+            count += 1
+
+    print(count)
