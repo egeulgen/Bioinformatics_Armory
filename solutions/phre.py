@@ -1,6 +1,6 @@
 import sys
 from Bio import SeqIO
-
+from os import remove
 
 if __name__ == "__main__":
     '''
@@ -19,5 +19,6 @@ if __name__ == "__main__":
         qual_list = record.letter_annotations["phred_quality"]
         if sum(qual_list) / len(qual_list) < threshold:
             count += 1
-
     print(count)
+
+    remove("tmp.fastq")
