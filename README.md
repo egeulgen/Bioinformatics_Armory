@@ -13,7 +13,7 @@
 1. [Read Quality Distribution](solutions/phre.py) :white_check_mark:
 1. [Complementing a Strand of DNA](solutions/rvco.py) :white_check_mark:
 1. Global Multiple Alignment
-1. Read Filtration by Quality
+1. [Read Filtration by Quality](solutions/filt.py) :white_check_mark:
 1. Finding Genes with ORFs
 1. Base Quality Distribution
 1. Base Quality Distribution
