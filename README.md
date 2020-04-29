@@ -10,7 +10,7 @@
 1. FASTQ format introduction :white_check_mark:
 1. [Protein Translation](solutions/ptra.py) :white_check_mark:
 1. [Suboptimal Local Alignment](solutions/subo.py) :white_check_mark:
-1. Read Quality Distribution
+1. [Read Quality Distribution](solutions/phre.py) :white_check_mark:
 1. Complementing a Strand of DNA
 1. Global Multiple Alignment
 1. Read Filtration by Quality
