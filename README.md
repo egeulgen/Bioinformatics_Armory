@@ -15,6 +15,5 @@
 1. Global Multiple Alignment :white_check_mark:
 1. [Read Filtration by Quality](solutions/filt.py) :white_check_mark:
 1. [Finding Genes with ORFs](solutions/orfr.py) :white_check_mark:
-1. Base Quality Distribution
-1. Base Quality Distribution
+1. [Base Quality Distribution](solutions/bphr.py) :white_check_mark:
 1. Base Filtration by Quality
