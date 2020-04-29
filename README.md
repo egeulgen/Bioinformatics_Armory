@@ -3,4 +3,6 @@
 
 1. [Introduction to the Bioinformatics Armory](solutions/ini.py)
 1. [Introduction to Protein Databases](solutions/dbpr.py)
+1. [Introduction to Protein Databases](solutions/dbpr.py)
+1. [Protein Translation](solutions/ptra.py)
 
