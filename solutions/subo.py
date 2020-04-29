@@ -43,19 +43,18 @@ def count_hamming(pattern, seq, dist=3):
 
 
 if __name__ == "__main__":
-    if __name__ == "__main__":
-        '''
-        Given: Two DNA strings s and t in FASTA format that share some short inexact repeat r of 32-40 bp. 
-        By "inexact" we mean that r may appear with slight modifications (each repeat differ by ≤3 changes/indels).
-        Return: The total number of occurrences of r as a substring of s, followed by the total number of occurrences 
-        of r as a substring of t.
-        '''
-        input_lines = sys.stdin.read().splitlines()
-        dna_dict = parse_fasta(input_lines)
-        s = list(dna_dict.values())[0]
-        t = list(dna_dict.values())[1]
+    '''
+    Given: Two DNA strings s and t in FASTA format that share some short inexact repeat r of 32-40 bp. 
+    By "inexact" we mean that r may appear with slight modifications (each repeat differ by ≤3 changes/indels).
+    Return: The total number of occurrences of r as a substring of s, followed by the total number of occurrences 
+    of r as a substring of t.
+    '''
+    input_lines = sys.stdin.read().splitlines()
+    dna_dict = parse_fasta(input_lines)
+    s = list(dna_dict.values())[0]
+    t = list(dna_dict.values())[1]
 
-        pattern = "AAGGTCTGAGGCTGCATCCGATTCAGAGTCA"
-        print(len(pattern))
-        print(count_hamming(pattern, s), count_hamming(pattern,t))
+    pattern = "AAGGTCTGAGGCTGCATCCGATTCAGAGTCA"
+    print(len(pattern))
+    print(count_hamming(pattern, s), count_hamming(pattern, t))
 
